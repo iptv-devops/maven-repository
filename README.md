@@ -15,5 +15,9 @@ repositories {
             gradleMetadata()
         }
     }
+    .
+    .
+    .
+    implementation 'com.lguplus.iptv:config-custom-exchanger:0.0.1'
 }
 ```
