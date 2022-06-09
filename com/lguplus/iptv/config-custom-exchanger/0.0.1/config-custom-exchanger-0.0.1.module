@@ -23,24 +23,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "dependencies": [
-        {
-          "group": "org.springframework.cloud",
-          "module": "spring-cloud-starter-gateway",
-          "version": {
-            "requires": "3.1.2"
-          }
-        }
-      ],
       "files": [
         {
           "name": "config-custom-exchanger-0.0.1.jar",
           "url": "config-custom-exchanger-0.0.1.jar",
-          "size": 6982,
-          "sha512": "2b6b711e2f8eb3f44129947047d8693430c04e432b3dff5c11f46acb198ce7600c34977c52f8f56fec3b62ffb4e9177213e59693da66b742c56f509416e79b95",
-          "sha256": "851cf8bab1e4819cc8ba7c0ca256e8bcdc7c8b4143aad1f05ca38d179286c5b5",
-          "sha1": "45f4dd3cbb6b0bc7b81ed92d715022f82632ee9a",
-          "md5": "709f6a4afe83c3a86eabd50266a28e3a"
+          "size": 6990,
+          "sha512": "8a56d5dc44b3f51fa9762815581934c91df06be823cf171b03d5f7983b3e88b1d5760c4855a0bac54142392126e0b35e4a182fabb70dde90057ee775c8165a4e",
+          "sha256": "e418e050f18a6ba62c7dee90b09a3e5bcf53ce3fc2309abc6fd1ccf412ce12ab",
+          "sha1": "f5825e5310d5ae39dce52ca3b9031fef693e9fe2",
+          "md5": "ba40b52ef6642ed5529f4692907f9e83"
         }
       ]
     },
@@ -55,17 +46,24 @@
       },
       "dependencies": [
         {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
           "group": "com.amazonaws",
           "module": "aws-java-sdk-ssm",
           "version": {
             "requires": "1.12.230"
-          }
-        },
-        {
-          "group": "org.springframework.cloud",
-          "module": "spring-cloud-starter-gateway",
-          "version": {
-            "requires": "3.1.2"
           }
         }
       ],
@@ -73,11 +71,11 @@
         {
           "name": "config-custom-exchanger-0.0.1.jar",
           "url": "config-custom-exchanger-0.0.1.jar",
-          "size": 6982,
-          "sha512": "2b6b711e2f8eb3f44129947047d8693430c04e432b3dff5c11f46acb198ce7600c34977c52f8f56fec3b62ffb4e9177213e59693da66b742c56f509416e79b95",
-          "sha256": "851cf8bab1e4819cc8ba7c0ca256e8bcdc7c8b4143aad1f05ca38d179286c5b5",
-          "sha1": "45f4dd3cbb6b0bc7b81ed92d715022f82632ee9a",
-          "md5": "709f6a4afe83c3a86eabd50266a28e3a"
+          "size": 6990,
+          "sha512": "8a56d5dc44b3f51fa9762815581934c91df06be823cf171b03d5f7983b3e88b1d5760c4855a0bac54142392126e0b35e4a182fabb70dde90057ee775c8165a4e",
+          "sha256": "e418e050f18a6ba62c7dee90b09a3e5bcf53ce3fc2309abc6fd1ccf412ce12ab",
+          "sha1": "f5825e5310d5ae39dce52ca3b9031fef693e9fe2",
+          "md5": "ba40b52ef6642ed5529f4692907f9e83"
         }
       ]
     }
