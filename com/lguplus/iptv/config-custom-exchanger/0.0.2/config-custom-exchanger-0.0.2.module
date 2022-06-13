@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lguplus.iptv",
+    "module": "config-custom-exchanger",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "config-custom-exchanger-0.0.2.jar",
+          "url": "config-custom-exchanger-0.0.2.jar",
+          "size": 8168,
+          "sha512": "c058e3be0aefa7038eb4409d2fb6943587c5f4d650bc7d0a0b13a10bb996e0ea9b64a855291e8d7f6b2cf545629b2f233b9505e71d6a8db8c78cee1a18cbd6f5",
+          "sha256": "6730ca28932d18409e44014bd4115c8af04742a75838b9fb79fd347f4e25149e",
+          "sha1": "26e9c9d5b0ad718df900cd177aaf965c8f822ae9",
+          "md5": "a011df412b4609ae633031ee690897ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-ssm",
+          "version": {
+            "requires": "1.12.230"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "config-custom-exchanger-0.0.2.jar",
+          "url": "config-custom-exchanger-0.0.2.jar",
+          "size": 8168,
+          "sha512": "c058e3be0aefa7038eb4409d2fb6943587c5f4d650bc7d0a0b13a10bb996e0ea9b64a855291e8d7f6b2cf545629b2f233b9505e71d6a8db8c78cee1a18cbd6f5",
+          "sha256": "6730ca28932d18409e44014bd4115c8af04742a75838b9fb79fd347f4e25149e",
+          "sha1": "26e9c9d5b0ad718df900cd177aaf965c8f822ae9",
+          "md5": "a011df412b4609ae633031ee690897ec"
+        }
+      ]
+    }
+  ]
+}
