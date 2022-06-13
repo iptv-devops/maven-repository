@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.1.1"
+      "version": "7.4.2"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "config-custom-exchanger-0.0.1.jar",
           "url": "config-custom-exchanger-0.0.1.jar",
-          "size": 8092,
-          "sha512": "ca4c7312ffe3dc021b335902f0ab5cde4e8fcd1e8902a0cc525ab3871a7f1d8fe29ad5000f688a0a22ddd069cc36f05878ac3dd4103bd7d3ffa4d1715d509318",
-          "sha256": "e429f8b395fd1174243041e494c4c25f1da2be530581072bd95da2d2a14ca1aa",
-          "sha1": "5dd9774b0fb047f06a31ab08a224cc8dd01ddc42",
-          "md5": "5fa8caf656c0e6f7f65d17908b72816f"
+          "size": 8168,
+          "sha512": "8da957e8e29caee4ce6f510162c1933e5a3f614bec188bd34f4ded53941b1a06270d45d9bed75df92d9a31d6e7ad25e7742f398d81932a5222e7d60fc4fa9389",
+          "sha256": "7a9d32054b9e7ab687e96536922e3badb7432b4821c3f05b9882c7a95c19ce05",
+          "sha1": "1986009f9c53a6e9a68661585b84bcb3e024316c",
+          "md5": "34e0e516cddab48d44136a9b01c0de20"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "config-custom-exchanger-0.0.1.jar",
           "url": "config-custom-exchanger-0.0.1.jar",
-          "size": 8092,
-          "sha512": "ca4c7312ffe3dc021b335902f0ab5cde4e8fcd1e8902a0cc525ab3871a7f1d8fe29ad5000f688a0a22ddd069cc36f05878ac3dd4103bd7d3ffa4d1715d509318",
-          "sha256": "e429f8b395fd1174243041e494c4c25f1da2be530581072bd95da2d2a14ca1aa",
-          "sha1": "5dd9774b0fb047f06a31ab08a224cc8dd01ddc42",
-          "md5": "5fa8caf656c0e6f7f65d17908b72816f"
+          "size": 8168,
+          "sha512": "8da957e8e29caee4ce6f510162c1933e5a3f614bec188bd34f4ded53941b1a06270d45d9bed75df92d9a31d6e7ad25e7742f398d81932a5222e7d60fc4fa9389",
+          "sha256": "7a9d32054b9e7ab687e96536922e3badb7432b4821c3f05b9882c7a95c19ce05",
+          "sha1": "1986009f9c53a6e9a68661585b84bcb3e024316c",
+          "md5": "34e0e516cddab48d44136a9b01c0de20"
         }
       ]
     }
