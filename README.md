@@ -18,6 +18,6 @@ repositories {
     .
     .
     .
-    implementation 'com.lguplus.iptv:config-custom-exchanger:0.0.1'
+    implementation 'com.lguplus.iptv:config-custom-exchanger'
 }
 ```
