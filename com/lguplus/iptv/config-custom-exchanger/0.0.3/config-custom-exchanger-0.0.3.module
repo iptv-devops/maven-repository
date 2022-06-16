@@ -23,15 +23,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "software.amazon.awssdk",
+          "module": "ssm",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
       "files": [
         {
           "name": "config-custom-exchanger-0.0.3.jar",
           "url": "config-custom-exchanger-0.0.3.jar",
           "size": 8153,
-          "sha512": "a5776cc1efde7f967920afa75f4df61e0ead509282e99ea8ed27c614d264553e0bb2e55644a49a48ce0af5f438e6524bd7f1bb757ae086d24443c48473679152",
-          "sha256": "7bc7aef0975b304e2fe4ae014b288a7945d8e6b9414c53e3e32349b490d48bff",
-          "sha1": "416bbde025cf3abf402f13d250ae3f5aaf6e83da",
-          "md5": "18ba93b8b61b2e539f15c2f1857b89c9"
+          "sha512": "f87391e6eb30f6bb788342d4dcbfe773cf286aa5fb60a16f523da18d7d3a3e37a977e80b4d35bceeeef3a2b23baaba76eefdcaf665c75ea08f0f6e0a01020622",
+          "sha256": "0ec6b37233de7900e04fd5d85d5ca08a091fd9158b4a862ada9d210b55b0ddfc",
+          "sha1": "0bdb5c55ffee55be2208ea354ae8be912611324d",
+          "md5": "1369f7fe65289a64d4d3a61a3a2ce45c"
         }
       ]
     },
@@ -63,7 +72,7 @@
           "group": "software.amazon.awssdk",
           "module": "ssm",
           "version": {
-            "requires": "2.17.209"
+            "requires": "2.15.0"
           }
         }
       ],
@@ -72,10 +81,10 @@
           "name": "config-custom-exchanger-0.0.3.jar",
           "url": "config-custom-exchanger-0.0.3.jar",
           "size": 8153,
-          "sha512": "a5776cc1efde7f967920afa75f4df61e0ead509282e99ea8ed27c614d264553e0bb2e55644a49a48ce0af5f438e6524bd7f1bb757ae086d24443c48473679152",
-          "sha256": "7bc7aef0975b304e2fe4ae014b288a7945d8e6b9414c53e3e32349b490d48bff",
-          "sha1": "416bbde025cf3abf402f13d250ae3f5aaf6e83da",
-          "md5": "18ba93b8b61b2e539f15c2f1857b89c9"
+          "sha512": "f87391e6eb30f6bb788342d4dcbfe773cf286aa5fb60a16f523da18d7d3a3e37a977e80b4d35bceeeef3a2b23baaba76eefdcaf665c75ea08f0f6e0a01020622",
+          "sha256": "0ec6b37233de7900e04fd5d85d5ca08a091fd9158b4a862ada9d210b55b0ddfc",
+          "sha1": "0bdb5c55ffee55be2208ea354ae8be912611324d",
+          "md5": "1369f7fe65289a64d4d3a61a3a2ce45c"
         }
       ]
     }
