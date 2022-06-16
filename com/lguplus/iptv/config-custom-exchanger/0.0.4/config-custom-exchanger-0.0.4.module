@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lguplus.iptv",
+    "module": "config-custom-exchanger",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "software.amazon.awssdk",
+          "module": "ssm",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "config-custom-exchanger-0.0.4.jar",
+          "url": "config-custom-exchanger-0.0.4.jar",
+          "size": 8153,
+          "sha512": "6120003fab735da8a36de468e61c28b324b3824a9961745f2d455c72506a2bfdd304737ae2d79b3805a378001be4d424d7134d65437eec8e3e13e99d7ac2a046",
+          "sha256": "86f647bda8ab302132f4b03a1a89377bd403bb84bb7d98b178f7811a05f4d1e4",
+          "sha1": "ceab78f9e732e9bd35a49430c8f313f75a64a00d",
+          "md5": "759e8cc6098dc553e3764e54eb839cd0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "ssm",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "config-custom-exchanger-0.0.4.jar",
+          "url": "config-custom-exchanger-0.0.4.jar",
+          "size": 8153,
+          "sha512": "6120003fab735da8a36de468e61c28b324b3824a9961745f2d455c72506a2bfdd304737ae2d79b3805a378001be4d424d7134d65437eec8e3e13e99d7ac2a046",
+          "sha256": "86f647bda8ab302132f4b03a1a89377bd403bb84bb7d98b178f7811a05f4d1e4",
+          "sha1": "ceab78f9e732e9bd35a49430c8f313f75a64a00d",
+          "md5": "759e8cc6098dc553e3764e54eb839cd0"
+        }
+      ]
+    }
+  ]
+}
