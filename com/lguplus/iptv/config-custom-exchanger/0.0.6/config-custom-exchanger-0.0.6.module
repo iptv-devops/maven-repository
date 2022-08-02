@@ -28,10 +28,10 @@
           "name": "config-custom-exchanger-0.0.6.jar",
           "url": "config-custom-exchanger-0.0.6.jar",
           "size": 7047,
-          "sha512": "05167952ca3203ab9e38e24fe98ceea272946a98f4808c3e7efffcb6b00504b736d582b91b2166b3276fdeae09438727e7b89db3b0bbb6f3b63ceefc9b3a0668",
-          "sha256": "6d01c526752268378982d10b3a476eae0fa75e2413bc13f67d394628c949dbbc",
-          "sha1": "95b3e870f1398f521124e48338e0d409d08f0d06",
-          "md5": "149c386140d9f8241c26de028398af64"
+          "sha512": "74dd415fb90ad261b02f84b1d8db6790cd25a78b392907304ebd8c05d27521e969f89f3f62c666231c3e2ee1426ad15bd1fb6b466faad47915674c376dbcf79c",
+          "sha256": "212e7c2b091c12e294a36f9e77ed50a9ed89e45c946f2e7765fe623d48c6d487",
+          "sha1": "45dec42571d4595b3d7640301a386de2956e7006",
+          "md5": "c64afa07c8e707d9719d1e0841b93baf"
         }
       ]
     },
@@ -72,10 +72,10 @@
           "name": "config-custom-exchanger-0.0.6.jar",
           "url": "config-custom-exchanger-0.0.6.jar",
           "size": 7047,
-          "sha512": "05167952ca3203ab9e38e24fe98ceea272946a98f4808c3e7efffcb6b00504b736d582b91b2166b3276fdeae09438727e7b89db3b0bbb6f3b63ceefc9b3a0668",
-          "sha256": "6d01c526752268378982d10b3a476eae0fa75e2413bc13f67d394628c949dbbc",
-          "sha1": "95b3e870f1398f521124e48338e0d409d08f0d06",
-          "md5": "149c386140d9f8241c26de028398af64"
+          "sha512": "74dd415fb90ad261b02f84b1d8db6790cd25a78b392907304ebd8c05d27521e969f89f3f62c666231c3e2ee1426ad15bd1fb6b466faad47915674c376dbcf79c",
+          "sha256": "212e7c2b091c12e294a36f9e77ed50a9ed89e45c946f2e7765fe623d48c6d487",
+          "sha1": "45dec42571d4595b3d7640301a386de2956e7006",
+          "md5": "c64afa07c8e707d9719d1e0841b93baf"
         }
       ]
     }
