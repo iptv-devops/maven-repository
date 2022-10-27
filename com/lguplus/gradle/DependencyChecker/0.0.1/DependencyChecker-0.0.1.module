@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lguplus.gradle",
+    "module": "DependencyChecker",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "DependencyChecker-0.0.1.jar",
+          "url": "DependencyChecker-0.0.1.jar",
+          "size": 12807,
+          "sha512": "164dc3a082980dbd8ac6240022f4e89afd2fa865c6d411e09a31023963223193462994cc3688eaec720d0b1cab8e6cd5e0e3f7b10dbf27f94fad5a8ad8bd8418",
+          "sha256": "d0426d7f91cf4ca41814936573510368ff98fc4b2c57ee755e34e251f4a3e13e",
+          "sha1": "5a7650e353467b2616a5f538352638dc27bb4e3b",
+          "md5": "e5da46fd49f237beae825287b1f11253"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DependencyChecker-0.0.1.jar",
+          "url": "DependencyChecker-0.0.1.jar",
+          "size": 12807,
+          "sha512": "164dc3a082980dbd8ac6240022f4e89afd2fa865c6d411e09a31023963223193462994cc3688eaec720d0b1cab8e6cd5e0e3f7b10dbf27f94fad5a8ad8bd8418",
+          "sha256": "d0426d7f91cf4ca41814936573510368ff98fc4b2c57ee755e34e251f4a3e13e",
+          "sha1": "5a7650e353467b2616a5f538352638dc27bb4e3b",
+          "md5": "e5da46fd49f237beae825287b1f11253"
+        }
+      ]
+    }
+  ]
+}
