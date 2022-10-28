@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lguplus.iptv",
+    "module": "config-custom-exchanger",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "config-custom-exchanger-0.0.9.jar",
+          "url": "config-custom-exchanger-0.0.9.jar",
+          "size": 7384,
+          "sha512": "ce22d53f3a2feea5a02d537802ae11dbe0d655e88618c40cd388da32a5a1abf3703a99e44e5b585d10f2ff2a96b16d7db435dcf6bedb4c53ac7b16444ac62e9d",
+          "sha256": "070c0c5937195cb97fc5aa06a4714ebaa35a95d2c35ec71b8f2c819578ab7ce8",
+          "sha1": "34d4b77b3d46ed954e198c05498b4b1ee43178cd",
+          "md5": "87886c4679d10d0ab1289c3113c79a14"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "version": {
+            "requires": "2.3.12.RELEASE"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "ssm",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "sts",
+          "version": {
+            "requires": "2.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "config-custom-exchanger-0.0.9.jar",
+          "url": "config-custom-exchanger-0.0.9.jar",
+          "size": 7384,
+          "sha512": "ce22d53f3a2feea5a02d537802ae11dbe0d655e88618c40cd388da32a5a1abf3703a99e44e5b585d10f2ff2a96b16d7db435dcf6bedb4c53ac7b16444ac62e9d",
+          "sha256": "070c0c5937195cb97fc5aa06a4714ebaa35a95d2c35ec71b8f2c819578ab7ce8",
+          "sha1": "34d4b77b3d46ed954e198c05498b4b1ee43178cd",
+          "md5": "87886c4679d10d0ab1289c3113c79a14"
+        }
+      ]
+    }
+  ]
+}
