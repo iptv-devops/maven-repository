@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lguplus.iptv.gradle",
+    "module": "dependency-checker",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dependency-checker-0.0.3.jar",
+          "url": "dependency-checker-0.0.3.jar",
+          "size": 13528,
+          "sha512": "feb7bed01ec938947c841c1015da8f3feef0e80fa8f92bc0479fc7a1a908186f92071efc2389bdda40ffd82a6458d0adbd85b63f782bae383e29ecc36fad62ff",
+          "sha256": "c56db243467e02ac1754cbe1680228f08589d7fd4e7862a7ef6458eb6d2b2b17",
+          "sha1": "5b671c01c4e8de4e38495456ae93f1fe9cf76474",
+          "md5": "50d5de8abb7e05d5682d48be12922ba8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dependency-checker-0.0.3.jar",
+          "url": "dependency-checker-0.0.3.jar",
+          "size": 13528,
+          "sha512": "feb7bed01ec938947c841c1015da8f3feef0e80fa8f92bc0479fc7a1a908186f92071efc2389bdda40ffd82a6458d0adbd85b63f782bae383e29ecc36fad62ff",
+          "sha256": "c56db243467e02ac1754cbe1680228f08589d7fd4e7862a7ef6458eb6d2b2b17",
+          "sha1": "5b671c01c4e8de4e38495456ae93f1fe9cf76474",
+          "md5": "50d5de8abb7e05d5682d48be12922ba8"
+        }
+      ]
+    }
+  ]
+}
