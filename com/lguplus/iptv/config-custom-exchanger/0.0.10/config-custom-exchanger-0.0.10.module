@@ -28,10 +28,10 @@
           "name": "config-custom-exchanger-0.0.10.jar",
           "url": "config-custom-exchanger-0.0.10.jar",
           "size": 7384,
-          "sha512": "66bf72369904f283357ed613de657b45551c9454b1fc1b29c6a8ce14b2e44109d9675025fc4d8827207c209f14b898ececffd32a858f5feaf193494e70b586cb",
-          "sha256": "3a725ebc11aef0d302628959356e4ab06b20057443a7bd5abe81d87504e73b7d",
-          "sha1": "71de591ddd0ec6116b7994ccc587077c54cc4459",
-          "md5": "fcbb4073aedd62b9bb47ee739659348d"
+          "sha512": "1f15003260bc49aa7b6f510f5b0a927595e68effffe5d56691f0358f897644180b532bf815564434bb36aafef8200196a92328c426ea326030eeaa1b5b86b41a",
+          "sha256": "03d00571299327f714ff2d547d3803ab871c4f809a32b0c9a6247a4efff2fd15",
+          "sha1": "31c1490c05c284653631d14fbb47ef4833ca4969",
+          "md5": "c6c023e3dc0cfb88d533190ae8ab95e8"
         }
       ]
     },
@@ -64,11 +64,30 @@
           "module": "ssm",
           "version": {
             "requires": "2.55.14"
-          }
+          },
+          "excludes": [
+            {
+              "group": "software.amazon.awssdk",
+              "module": "apache5-client"
+            }
+          ]
         },
         {
           "group": "software.amazon.awssdk",
           "module": "sts",
+          "version": {
+            "requires": "2.55.14"
+          },
+          "excludes": [
+            {
+              "group": "software.amazon.awssdk",
+              "module": "apache5-client"
+            }
+          ]
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "apache-client",
           "version": {
             "requires": "2.55.14"
           }
@@ -79,10 +98,10 @@
           "name": "config-custom-exchanger-0.0.10.jar",
           "url": "config-custom-exchanger-0.0.10.jar",
           "size": 7384,
-          "sha512": "66bf72369904f283357ed613de657b45551c9454b1fc1b29c6a8ce14b2e44109d9675025fc4d8827207c209f14b898ececffd32a858f5feaf193494e70b586cb",
-          "sha256": "3a725ebc11aef0d302628959356e4ab06b20057443a7bd5abe81d87504e73b7d",
-          "sha1": "71de591ddd0ec6116b7994ccc587077c54cc4459",
-          "md5": "fcbb4073aedd62b9bb47ee739659348d"
+          "sha512": "1f15003260bc49aa7b6f510f5b0a927595e68effffe5d56691f0358f897644180b532bf815564434bb36aafef8200196a92328c426ea326030eeaa1b5b86b41a",
+          "sha256": "03d00571299327f714ff2d547d3803ab871c4f809a32b0c9a6247a4efff2fd15",
+          "sha1": "31c1490c05c284653631d14fbb47ef4833ca4969",
+          "md5": "c6c023e3dc0cfb88d533190ae8ab95e8"
         }
       ]
     }
